@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin:wght@600&family=Work+Sans:wght@800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*:focus,
+*:active {
+  outline: none;
+  border: none;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px;
+}
+
+:root {
+  --cabin: "Cabin", sans-serif;
+  --workSans: "Work Sans", sans-serif;
+  --darkBlue: #1d3e73;
+  --lightBlue: #87cdf8;
+  --lighterBlue: #c8e3f3;
+  --primaryBlue: #3555d3;
+  --gray: #7c889b;
+  --lightGray: #e5e5e5;
+  --offWhite: #f4f5fc;
+  --transition: all 0.3s ease;
+  --dropShadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: var(--cabin);
+  font-weight: 600;
+  background: var(--offWhite);
+}
+
+section {
+  padding: 60px 30px;
+}
+
+@media screen and (min-width: 768px) {
+  section {
+    padding: 60px;
+  }
+}
+
+button {
+  border: none;
+}
