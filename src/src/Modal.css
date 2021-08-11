@@ -1,0 +1,151 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  z-index: 999;
+  display: grid;
+  place-items: center;
+  padding: 30px;
+  transform: translateX(-100%);
+  transition: var(--transition);
+}
+
+.show-modal {
+  transform: translateX(0);
+}
+
+.modal-card {
+  padding: 15px;
+  background: white;
+  box-shadow: var(--dropShadow);
+  position: relative;
+}
+
+.modal-close-btn {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  color: #d33535;
+  font-size: 24px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 999;
+  transition: var(--transition);
+}
+
+.modal-close-btn:hover {
+  transform: scale(1.2);
+}
+
+.modal-title {
+  font-family: var(--workSans);
+  font-size: 20px;
+  max-width: 75%;
+  letter-spacing: 0.01em;
+  color: var(--darkBlue);
+}
+
+.modal-subtitle {
+  font-size: 16px;
+  margin-top: 6px;
+  max-width: 75%;
+  color: var(--gray);
+}
+
+.modal-contact {
+  margin-top: 10px;
+  display: flex;
+  gap: 15px;
+}
+
+.modal-contact svg,
+.modal-location svg {
+  width: 16px;
+  height: 16px;
+  color: var(--gray);
+}
+
+.modal-contact-info p,
+.modal-location-info p {
+  color: var(--gray);
+  max-width: 158px;
+}
+
+.modal-location {
+  margin-top: 10px;
+  display: flex;
+  gap: 15px;
+}
+
+.modal-btn {
+  color: var(--offWhite);
+  background: var(--primaryBlue);
+  border: none;
+  outline: none;
+  font-size: 16px;
+  width: 120px;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  display: inline-block;
+  margin-top: 5px;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.modal-verification {
+  margin-top: 10px;
+  display: flex;
+  gap: 7px;
+  align-items: center;
+}
+
+.modal-verification-icon {
+  width: 24px;
+  height: 24px;
+  background: var(--lighterBlue);
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+}
+
+.modal-verification-icon svg {
+  color: #00c04d;
+  font-size: 16px;
+}
+
+.modal-verification p {
+  color: var(--gray);
+}
+
+.modal-update {
+  margin-top: 15px;
+  color: var(--gray);
+}
+
+.lapor-btn {
+  display: block;
+  width: 100%;
+  margin-top: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background: #d33535;
+  color: white;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.lapor-btn:hover,
+.modal-btn:hover {
+  opacity: 0.8;
+}
+
+.modal-right {
+  display: none;
+}
