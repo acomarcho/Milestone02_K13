@@ -1,0 +1,44 @@
+.hero-section {
+  padding-top: calc(60px + 70px);
+  background: url("./images/hero-phone.jpg") center/cover no-repeat fixed;
+}
+
+.hero-container {
+  max-width: 1160px;
+  margin: 0 auto;
+}
+
+.hero-section h1 {
+  color: var(--offWhite);
+  font-size: 20px;
+  font-family: var(--workSans);
+  text-transform: uppercase;
+  max-width: 190px;
+  letter-spacing: 0.1em;
+}
+
+.hero-section p {
+  color: var(--lightGray);
+  font-size: 14px;
+  margin-top: 15px;
+  max-width: 189px;
+  line-height: 150.6%;
+}
+
+.hero-section .btn {
+  font-size: 16px;
+  padding: 10px 40px;
+  margin-top: 30px;
+  background: var(--primaryBlue);
+  border: none;
+  color: var(--offWhite);
+  cursor: pointer;
+  transition: var(--transition);
+  display: inline-block;
+}
+
+.hero-section .btn:hover {
+  background: var(--offWhite);
+  color: var(--darkBlue);
+  opacity: 0.8;
+}
