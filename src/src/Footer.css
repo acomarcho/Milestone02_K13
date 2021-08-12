@@ -46,3 +46,17 @@
   font-size: 14px;
   color: var(--lightGray);
 }
+
+@media screen and (min-width: 768px) {
+  .footer {
+    padding: 30px 60px;
+  }
+  .footer-logo {
+    font-size: 24px;
+  }
+  .footer-contact,
+  .footer-info,
+  .footer-copyright {
+    font-size: 16px;
+  }
+}
