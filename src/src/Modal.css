@@ -149,3 +149,41 @@
 .modal-right {
   display: none;
 }
+
+@media screen and (min-width: 768px) {
+  .modal-wrapper {
+    width: 80vw;
+    display: grid;
+    grid-template-columns: 350px 1fr;
+    gap: 30px;
+    max-width: 1160px;
+    margin: 0 auto;
+  }
+  .modal-right {
+    position: relative;
+    display: grid;
+    grid-template-rows: 1fr auto;
+  }
+  .modal-right iframe {
+    width: 100%;
+    height: 90%;
+  }
+  .modal-right p span {
+    color: var(--primaryBlue);
+  }
+  .modal-right {
+    color: var(--darkBlue);
+    text-align: right;
+  }
+  .modal-close-btn {
+    font-size: 32px;
+  }
+  .modal-contact-info p,
+  .modal-location-info p {
+    color: var(--gray);
+    max-width: 100%;
+  }
+  .modal-title {
+    font-size: 32px;
+  }
+}
