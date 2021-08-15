@@ -5,15 +5,15 @@ Kelompok 13: CariOksigen
 # Nama dan NIM anggota serta pembagian tugas
 |Nama|NIM|Pembagian Tugas|
 |--|--|--|
-|Ammardito Shafaat|16520302|Membuat footer untuk desktop|
-|Muhammad Rakha Athaya|16520316|Membuat modal untuk desktop|
+|Ammardito Shafaat|16520302|Membuat footer untuk mobile|
+|Muhammad Rakha Athaya|16520316|Membuat modal untuk mobile|
 |Faris Tristan Fabian|16520327|Membuat hero yang responsive|
 |Marchotridyo|16520345|Desain di Figma, pembuatan repo dan template components serta global styling, main content (maps + cards list), serta fungsionalitas website menggunakan React Hooks|
 |Nayotama Pradipta|16520396|Membuat modal menjadi responsive|
 |Tania Junardi Chua|16520397|Membuat footer menjadi responsive|
 |Sitanggang Jerry Josia Partogi|16520441|Mengisi data cardsData|
 |Joanna Margareth Nauli|16520464|Membuat navigation bar|
-|Bryan Eagan|16520478|Desain di Figma, membuat hero di versi desktop|
+|Bryan Eagan|16520478|Desain di Figma, membuat hero di versi mobile|
 # Cara menggunakan situs
 1. Demo situs dapat diakses di <a href="https://cari-oksigen-demo.netlify.app">link berikut</a>.
 2. Untuk menuju tempat pencarian, bisa mengklik tombol "Cek sekarang" di bagian hero maupun tombol "Cari" pada Navbar.
